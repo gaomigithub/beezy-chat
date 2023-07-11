@@ -25,9 +25,6 @@ const useFreeLogin = () => {
             async success(res) {
               console.log('getAuthCode succeed')
               setCode(res.code)
-              alert(res.code)
-
-              console.log({ authcode: res.code })
 
               //authorization code 存储在 res.code
               // 此处通过fetch把code传递给接入方服务端Route: callback，并获得user_info

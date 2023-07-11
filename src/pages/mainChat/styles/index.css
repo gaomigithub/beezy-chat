@@ -1,0 +1,54 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  min-width: 800px;
+  min-height: 500px;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+body #app-container {
+  width: 100%;
+  height: 100%;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-selected {
+  background-color: #fff9df;
+  color: #ffcc00;
+}
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-selected {
+  background-color: #fff9df;
+  color: #ffcc00;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-selected:hover {
+  background-color: #fff0b3;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+  background-color: #fff0b3;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover {
+  background-color: #fff0b3;
+}
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover {
+  background-color: #fff0b3;
+}
+.ant-dropdown
+  .ant-dropdown-menu
+  .ant-dropdown-menu-submenu-selected
+  .ant-dropdown-menu-submenu-title {
+  color: #ffcc00;
+}
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-selected {
+  color: #ffcc00;
+}
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+  background-color: #fff0b3;
+}
+.ant-dropdown-menu-submenu
+  .ant-dropdown-menu
+  .ant-dropdown-menu-item-selected:hover {
+  background-color: #fff0b3;
+}

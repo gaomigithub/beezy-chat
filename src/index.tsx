@@ -1,8 +1,10 @@
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
+/** @jsxImportSource @emotion/react */
+import { EncooLayout } from '@/pages/mainChat/Layout'
+import '@pages/mainChat/styles/index.css'
+import '@pages/styles/global.css'
+import { createRoot } from 'react-dom/client'
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
-);
-root.render(<App />);
+const element = document.getElementById('root') as HTMLElement
+const root = createRoot(element!)
+
+root.render(<EncooLayout />)
