@@ -12,13 +12,7 @@ export class FireBaseAuthService implements IAuthService {
 
   constructor() {
     const firebaseConfig = {
-      apiKey: "AIzaSyC9PNjRARKVCqgIEbtRTWoUYu6Oqk_iX80",
-      authDomain: "beezy-d7f49.firebaseapp.com",
-      projectId: "beezy-d7f49",
-      storageBucket: "beezy-d7f49.appspot.com",
-      messagingSenderId: "415429498675",
-      appId: "1:415429498675:web:de3cfde61d407a79d91046",
-      measurementId: "G-BWVELQLDEL",
+        // hide for public
     };
     const app = initializeApp(firebaseConfig);
 
